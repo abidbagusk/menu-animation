@@ -2,6 +2,15 @@
   width: 30px;
   height: 30px;
   background: red;
+  cursor: pointer;
+}
+
+.wrapper-menu__menu,
+.wrapper-menu__menu:before,
+.wrapper-menu__menu:after {
+  width: 30px;
+  height: 2px;
+  background-color: #121212;
 }
 
 /*# sourceMappingURL=style.css.map */

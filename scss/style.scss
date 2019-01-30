@@ -7,4 +7,14 @@ $bright-color : #FFFFFF;
     width: $menu-width + 10;
     height: 30px;
     background: red;
+    cursor: pointer;
+}
+
+// Add style to each menu bar
+.wrapper-menu__menu,
+.wrapper-menu__menu:before,
+.wrapper-menu__menu:after {
+    width: $menu-width + 10;
+    height: $menu-height;
+    background-color: $dark-color;
 }
