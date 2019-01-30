@@ -1,5 +1,5 @@
 $menu-width: 20px;
-$menu-height: 2px;
+$menu-height: 3px;
 $dark-color : #121212;
 $bright-color : #FFFFFF;
 
@@ -17,4 +17,21 @@ $bright-color : #FFFFFF;
     width: $menu-width + 10;
     height: $menu-height;
     background-color: $dark-color;
+}
+
+.wrapper-menu__menu {
+    position: relative;
+}
+
+.wrapper-menu__menu:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+}
+
+.wrapper-menu__menu:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+
 }
