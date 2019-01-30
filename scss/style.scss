@@ -1,0 +1,10 @@
+$menu-width: 20px;
+$menu-height: 2px;
+$dark-color : #121212;
+$bright-color : #FFFFFF;
+
+.wrapper-menu {
+    width: $menu-width + 10;
+    height: 30px;
+    background: red;
+}
